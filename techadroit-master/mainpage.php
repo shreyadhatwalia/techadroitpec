@@ -1,3 +1,8 @@
+<? 
+    include "connection.php"; 
+    session_start();
+?> 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,24 +58,22 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Events</a>
-                    </li>
-                    <li>
-                        <a href="#register"><span class="glyphicon glyphicon-user"></span> Register</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Events</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#services">Sponsors</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a href="index.php?logout=1"><span class="glyphicon glyphicon-user"></span>Logout</a>
                     </li>
                 </ul>
             </div>
@@ -83,13 +86,58 @@
     <header>
         <div class="container">
             <div class="intro-text">
-            		
+                    
                 <div class="intro-heading">TECHADROIT</div>
                 <div class="intro-lead-in">To unleash the gamer within you!</div>
                 <a href="#services" class="page-scroll btn btn-xl"><span class = "span_style">START</span></a>
             </div>
         </div>
     </header>
+
+    <!-- About Section -->
+    <section id = "about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class= "section-heading">About Us</h2>
+                </div>
+            </div>
+            <br><br>
+            
+            <div class="timeline-heading text-center">
+                        <h4>IEEE PEC</h4>
+            </div>
+            <br>
+            <div class="row">
+               <div class="col-md-5" >
+                       <img src="img/pec.jpg" class="img-responsive dimen" alt="About images" border:5>
+               </div>
+               <div class = "col-md-7">
+                    <div class="timeline-body resp">
+                    <p align = "justify">IEEE Student Branch was started in PEC in January 2001, under the guidance of Dr. Gurnam Singh (in charge of IEEE, PEC Student Chapter) and Mr. Sanjeev Sofat, with Mr. Mohit Aggarwal as its Chairperson. The 2003 batch of the computer society consisted of 22 enthusiastic members, continuously striving to gain and share technical knowledge and awareness.<br>
+
+                        At IEEE-PEC we strive to take the vision of IEEE forward. IEEE-PEC has been the strongest and the most productive technical society in the college for years. It has been serving as a knowledge provider, opportunities provider and a practice platform for Computer Science, Electrical and Electronics engineers. Students from other trades having overlapping interests are free to join the society. We hold regular workshops by students as well as experts on various technologies such as Android, JavaScript, OpenCV, MATLAB, Big Data, VLSI etc. Our students participate in various inter-college competitions held in various IITs and NITs and bring laurels for the college. Last year IEEE-PEC organized 5 events at PECFest’14, the annual technical-cultural fest of our college that attracted a huge audience with the main attraction being Hackathon-PEC, a 12-hour long coding extravaganza.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="timeline-heading text-center">
+                <h4>TECHADROIT 2016</h4>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col-md-5" >
+                <img src="img/logos/techadroit2015.png" class="img-responsive dimen" alt="About images" border ="90">
+            </div>
+                <div class = "col-md-7">
+                    <div class="timeline-body resp">
+                        <p>     Techadroit 2016         </p>
+                    </div>
+                </div>
+            </div>   
+        </div>  
+    </section>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
@@ -230,110 +278,7 @@
             </div>
         </div>
     </section>
-    
-    <!-- Register Section -->
-    <section id="register">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Register Now</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="registerForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6 text-center">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 text-center">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your College/School *" id="college" required data-validation-required-message="Please enter your College/School.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Year/Class *" id="year" required data-validation-required-message="Please enter your Year/Class.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Gender *" id="gender" required data-validation-required-message="Please enter your gneder.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Register</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
 
-
-    <!-- About Section -->
-    <section id = "about">
-		<div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2 class= "section-heading">About Us</h2>
-                </div>
-            </div>
-            <br><br>
-            
-            <div class="timeline-heading text-center">
-                        <h4>IEEE PEC</h4>
-            </div>
-			<br>
-            <div class="row">
-               <div class="col-md-5" >
-                       <img src="img/pec.jpg" class="img-responsive dimen" alt="About images" border:5>
-               </div>
-               <div class = "col-md-7">
-               		<div class="timeline-body resp">
-                    <p align = "justify">IEEE Student Branch was started in PEC in January 2001, under the guidance of Dr. Gurnam Singh (in charge of IEEE, PEC Student Chapter) and Mr. Sanjeev Sofat, with Mr. Mohit Aggarwal as its Chairperson. The 2003 batch of the computer society consisted of 22 enthusiastic members, continuously striving to gain and share technical knowledge and awareness.<br>
-
-						At IEEE-PEC we strive to take the vision of IEEE forward. IEEE-PEC has been the strongest and the most productive technical society in the college for years. It has been serving as a knowledge provider, opportunities provider and a practice platform for Computer Science, Electrical and Electronics engineers. Students from other trades having overlapping interests are free to join the society. We hold regular workshops by students as well as experts on various technologies such as Android, JavaScript, OpenCV, MATLAB, Big Data, VLSI etc. Our students participate in various inter-college competitions held in various IITs and NITs and bring laurels for the college. Last year IEEE-PEC organized 5 events at PECFest’14, the annual technical-cultural fest of our college that attracted a huge audience with the main attraction being Hackathon-PEC, a 12-hour long coding extravaganza.
-					</p>
-					</div>
-				</div>
-			</div>
-			<br><br>
-			<div class="timeline-heading text-center">
-                <h4>TECHADROIT 2016</h4>
-            </div>
-			<br>
-            <div class="row">
-            <div class="col-md-5" >
-                <img src="img/logos/techadroit2015.png" class="img-responsive dimen" alt="About images" border ="90">
-            </div>
-            <div class = "col-md-7">
-               		<div class="timeline-body resp">
-                    <p>		Techadroit 2016			</p>
-					</div>
-			</div>
-
-            
-            </div>
-			
-		</div>	
-
-	</section>
-
- 
     <!-- Sponsors Section -->
     <section id="services">
         <div class="container">
@@ -383,110 +328,7 @@
         </div>
     </section>
 
-    
-
-    <!-- Contact Section -->
-    <!--
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">contact</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-    
-    <section id = "contact">
-    	<div class = "container">
-    		<div class = "row">
-    			<div class = "col-lg-12 text-center">
-    				<h2 class = "section-heading resp">contact</h2>
-    			</div>
-    			<br>
-    			<div class = "row">
-    			<div>
-    				<div class = "timeline-heading resp">
-    				<h3>How to reach us?</h3><br>
-    				</div>
-    				<div class = "row">
-    				<div class = "col-lg-6">
-    				<div id = "map" class = "map-responsive"></div>
-					</div>
-					<div class = "col-lg-6">
-						<address class="contact-details resp">
-								<h3>Contact Us</h3>						
-								<p><i class="fa fa-pencil"></i> PEC University of Technology, <span>Sector - 12,</span> <span>Chadigarh </span><span>160012</span></p><br>
-								<p><i class="fa fa-phone"></i> Phone: (+91) 95306-62773 </p>
-								<p><i class="fa fa-envelope"></i> pec.ieee@gmail.com</p><br>
-								<p><i class = "fa fa-user"></i> Prof. Rintu Khanna <span>Officer Incharge, </span><span>IEEE PEC</span></p>
-								<p><i class = "fa fa-phone"></i> Phone: (+91) 97797-05738 </p>
-								<p><i class = "fa fa-envelope"></i> ieee@pec.edu.in</p>
-							</address>
-					</div>
-					</div>
-					<br>
-					<div class = "row">
-					<div class = "col-lg-12">
-					<address class = "contact-details resp">
-					<h3 >IEEE PEC</h3>
-					</div></div>
-					<div class = "row">
-					<div class = "col-lg-6">
-					<address class = "contact-details resp">
-					<p><i class = "fa fa-user"></i> Nikhil Arora <span>Chairperson, </span> <span>IEEE PEC</span></p><br>
-					<p><i class = "fa fa-phone"></i> Phone: (+91) 95306-62773 </p>
-					<p><i class = "fa fa-envelope"></i> nikhilarora1696@gmail.com</p>
-					</div>
-					
-					<div class = "col-lg-6">
-					<address class = "contact-details resp">
-					<p><i class = "fa fa-user"></i> Rashpinder Jagait <span>	Vice Chairperson, </span> <span>IEEE PEC</span></p><br>
-					<p><i class = "fa fa-phone"></i> Phone: (+91) 98728-88599 </p>
-					<p><i class = "fa fa-envelope"></i> rashjagait@gmail.com</p>
-					</div>
-
-    		</div>
-    		</div>
-    		</div>		
-    	</div>
-    </section>
-    
-       <!-- Team Section -->
+    <!-- Team Section -->
     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -495,7 +337,7 @@
                 </div>
             </div>            
             <div class="row">
-            	    <div class="col-sm-4">
+                    <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
                         <h4>Prof. Rintu Khanna</h4>
@@ -595,7 +437,107 @@
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <!--
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">contact</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    
+    <section id = "contact">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-lg-12 text-center">
+                    <h2 class = "section-heading resp">contact</h2>
+                </div>
+                <br>
+                <div class = "row">
+                <div>
+                    <div class = "timeline-heading resp">
+                    <h3>How to reach us?</h3><br>
+                    </div>
+                    <div class = "row">
+                    <div class = "col-lg-6">
+                    <div id = "map" class = "map-responsive"></div>
+                    </div>
+                    <div class = "col-lg-6">
+                        <address class="contact-details resp">
+                                <h3>Contact Us</h3>                     
+                                <p><i class="fa fa-pencil"></i> PEC University of Technology, <span>Sector - 12,</span> <span>Chadigarh </span><span>160012</span></p><br>
+                                <p><i class="fa fa-phone"></i> Phone: (+91) 95306-62773 </p>
+                                <p><i class="fa fa-envelope"></i> pec.ieee@gmail.com</p><br>
+                                <p><i class = "fa fa-user"></i> Prof. Rintu Khanna <span>Officer Incharge, </span><span>IEEE PEC</span></p>
+                                <p><i class = "fa fa-phone"></i> Phone: (+91) 97797-05738 </p>
+                                <p><i class = "fa fa-envelope"></i> ieee@pec.edu.in</p>
+                            </address>
+                    </div>
+                    </div>
+                    <br>
+                    <div class = "row">
+                    <div class = "col-lg-12">
+                    <address class = "contact-details resp">
+                    <h3 >IEEE PEC</h3>
+                    </div></div>
+                    <div class = "row">
+                    <div class = "col-lg-6">
+                    <address class = "contact-details resp">
+                    <p><i class = "fa fa-user"></i> Nikhil Arora <span>Chairperson, </span> <span>IEEE PEC</span></p><br>
+                    <p><i class = "fa fa-phone"></i> Phone: (+91) 95306-62773 </p>
+                    <p><i class = "fa fa-envelope"></i> nikhilarora1696@gmail.com</p>
+                    </div>
+                    
+                    <div class = "col-lg-6">
+                    <address class = "contact-details resp">
+                    <p><i class = "fa fa-user"></i> Rashpinder Jagait <span>    Vice Chairperson, </span> <span>IEEE PEC</span></p><br>
+                    <p><i class = "fa fa-phone"></i> Phone: (+91) 98728-88599 </p>
+                    <p><i class = "fa fa-envelope"></i> rashjagait@gmail.com</p>
+                    </div>
 
+            </div>
+            </div>
+            </div>      
+        </div>
+    </section>
+ 
     <footer>
         <div class="container">
             <div class="row">
@@ -653,8 +595,8 @@
                         <div class = "col-lg-6">
                                 <h4 class = "timeline-heading">Abstract:</h4>
                                 <p class = "timeline-body" align = "justify">Princess Pia has been taken by the mischievous Tai Lung. With the prestige of the Kingdom at stake, General Po is assigned the task of defeating Tai Lung and bringing back Pia. Since Po knows little of Tai Lung he calls upon his revered Master Shifu for help. Shifu now looks up to you to design a website interface that offers special tools by him, that may help Po.
-								</p>
-								<h4 class = "timeline-heading">TOOLS FOR MAKING WEBSITE:</h4>
+                                </p>
+                                <h4 class = "timeline-heading">TOOLS FOR MAKING WEBSITE:</h4>
                                 <p class = "timeline-body" align = "justify">
                                 You are allowed to use following frameworks for building the website:<br>
 Plain HTML/CSS/JavaScript using Text Editors- Notepad, Notepad++ and Sublime text.<br>
@@ -665,13 +607,13 @@ You are provided with Internet Access for downloading suitable stuffs. Invent re
                                 <h4 class = "timeline-heading">Breakup:</h4>
                                 <p class = "timeline-body" align = "left"><ul class = "timeline-body">
                                 <li>Features – 50 %</li> <li>Designing – 30 %</li> <li>Reliability – 10%</li> <li>Innovation – 10%</li></ul></p>
-								<h4 class = "timeline-heading">TIME ALLOWED: 4 hours</h4>
+                                <h4 class = "timeline-heading">TIME ALLOWED: 4 hours</h4>
                                 
                                 </div>  
                         </div>
                         </div>
                         <div class = "mid">
-                        		<button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -706,36 +648,36 @@ You are provided with Internet Access for downloading suitable stuffs. Invent re
                         <div class = "col-lg-6">
                                 <h4 class = "timeline-heading">Task:</h4>
                                 <p class = "timeline-body" align = "justify">Test your technical concepts and answer the questions as fast as you can!</p>
-								<h4 class = "timeline-heading">RULES:</h4>
+                                <h4 class = "timeline-heading">RULES:</h4>
                                 <p class = "timeline-body" align = "left">
                                 <ol><li>A team shall consist of maximum two persons.</li>
-								<li>Students of different educational institutions can make a team.</li>
-								<li>An individual cannot be part of more than one team.</li>
-								<li>The decision of the quiz-master will be final and will not be subjected to any change.</li>
-								<li>The participants shall not be allowed to use mobile or other electronic instruments.</li>
-								<li>The questions shall be in the form of multiple choice, True / False statement, Specific-answer question etc.</li>
-								<li>Audience shall not give any hints or clues to the competitors.</li></ol>
+                                <li>Students of different educational institutions can make a team.</li>
+                                <li>An individual cannot be part of more than one team.</li>
+                                <li>The decision of the quiz-master will be final and will not be subjected to any change.</li>
+                                <li>The participants shall not be allowed to use mobile or other electronic instruments.</li>
+                                <li>The questions shall be in the form of multiple choice, True / False statement, Specific-answer question etc.</li>
+                                <li>Audience shall not give any hints or clues to the competitors.</li></ol>
                                 </p> 
                                 <h3 class = "timeline-heading">EVENT DESCRIPTION:</h3>
                                 <h4 class = "timeline-heading">ELIMINATION ROUND:</h4>
-                                <p class = "timeline-body" align = "justify"><ul><li>This is a pen‐paper based quiz to check participant’s knowledge of basic aptitude, digital and analog circuits.</li>		
-								<li>The top 5 teams of the quiz will qualify to the second round.</li></ul></p>
+                                <p class = "timeline-body" align = "justify"><ul><li>This is a pen‐paper based quiz to check participant’s knowledge of basic aptitude, digital and analog circuits.</li>       
+                                <li>The top 5 teams of the quiz will qualify to the second round.</li></ul></p>
                                 <h4 class = "timeline-heading">FINAL ROUND:</h4>
                                 <p class = "timeline-body" align = "left"><ul class = "timeline-body">
                                 After calculating the sum of scores for the below mentioned rounds, the top 2 winner teams will be declared.
                                 <ol><li><b>RAPID FIRE ROUND:</b> <ul><li>Each team will be asked 10 questions one after another in one minute’s time.</li>
-								<li>10 marks for the correct answer and negative 5 marks for the wrong answer.</li>
-								<li>If a team cannot answer the question, they can say pass for the next question. The question will not be forwarded to the next team </li></ul></li><li><b>AUDIO-VISUAL ROUND:</b><ul><li>Teams will be shown clips according to different concept of digital and analog electronics, embedded systems,etc and they have to answer question  related to architecture, practical utility,etc.</li>
-								<li>10 marks for the correct answer and 0 negative marks for the wrong answer. Also partial marking are allowed in some cases.</li>
-								<li>If a team cannot answer the question, it will be announced as a bonus question for other qualified teams with same marking scheme as described, with no negative marking applicable.</li>
-								<li>Answering time is only 30seconds.</li></ul></li></ol> </p>
-								** The decision of judges will be final.
+                                <li>10 marks for the correct answer and negative 5 marks for the wrong answer.</li>
+                                <li>If a team cannot answer the question, they can say pass for the next question. The question will not be forwarded to the next team </li></ul></li><li><b>AUDIO-VISUAL ROUND:</b><ul><li>Teams will be shown clips according to different concept of digital and analog electronics, embedded systems,etc and they have to answer question  related to architecture, practical utility,etc.</li>
+                                <li>10 marks for the correct answer and 0 negative marks for the wrong answer. Also partial marking are allowed in some cases.</li>
+                                <li>If a team cannot answer the question, it will be announced as a bonus question for other qualified teams with same marking scheme as described, with no negative marking applicable.</li>
+                                <li>Answering time is only 30seconds.</li></ul></li></ol> </p>
+                                ** The decision of judges will be final.
                                 
                                 </div>  
                         </div>
                         </div>
                         <div class = "mid">
-                        		<button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -774,29 +716,29 @@ You are provided with Internet Access for downloading suitable stuffs. Invent re
                                 <p class = "timeline-body" align = "justify">Are you the next generation technology expert? Have desire to write about Tech? An avid reader of latest gazettes? Don't have a platform to express your ideas, give your views? IEEE PEC is continuing its tradition of giving tech lovers a one of its kind opportunity.<br>
 "The online Tech-Blog competition”<br>
 All with passion to write, its time to start shaping your skills.
-								</p>
-								<h4 class = "timeline-heading">DESCRIPTION:</h4>
+                                </p>
+                                <h4 class = "timeline-heading">DESCRIPTION:</h4>
                                 <p class = "timeline-body" align = "justify">
                                 This PECFest, IEEE PEC is initiating a Blog Contest providing a common platform for all the interested candidates to present their ideas on how technology is impacting society where they can get reviews and suggestions from like-minded people.                                </p> 
                                 <h4 class = "timeline-heading">RULES:</h4>
                                 <p class = "timeline-body" align = "justify">The initial contest ends on 18th March, 2017 midnight. Mail your entries at pec.ieee@gmail.com<br>
                                 <ol><li>All students with a valid ID card of their respective educational institutes are eligible to participate.</li>
-								<li>No entries will be accepted after the deadline.</li>
-								<li>Can be submitted solo or in a group of maximum two.</li>
-								<li>Only one entry per team is allowed.</li>
-								<li>The blog must adhere to writing standards.</li>
-								<li>Word limit shouldn't exceed 500 words.</li>
-								<li>Plagiarism is strictly prohibited. If caught, entry will be directly disqualified.</li></ol>
-								There can be possibly more than one winner. Help readers understand your perspectives through writing. It can be one of your greatest contributions. Winning entries will be published in our biannual magazine</p>
+                                <li>No entries will be accepted after the deadline.</li>
+                                <li>Can be submitted solo or in a group of maximum two.</li>
+                                <li>Only one entry per team is allowed.</li>
+                                <li>The blog must adhere to writing standards.</li>
+                                <li>Word limit shouldn't exceed 500 words.</li>
+                                <li>Plagiarism is strictly prohibited. If caught, entry will be directly disqualified.</li></ol>
+                                There can be possibly more than one winner. Help readers understand your perspectives through writing. It can be one of your greatest contributions. Winning entries will be published in our biannual magazine</p>
                                 <h4 class = "timeline-heading">RESOURCES:</h4>
                                 <p class = "timeline-body" align = "left">Go through news articles, technical papers and stuff that allow you to find out and explore more about the technology, social concepts and its impact.</p>
-								
+                                
                                 
                                 </div>  
                         </div>
                         </div>
                         <div class = "mid">
-                        		<button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -817,7 +759,7 @@ All with passion to write, its time to start shaping your skills.
                     </div>
                 </div>
                 <div class="container">
-                		<div class ="mid">
+                        <div class ="mid">
                 <h2>CODE STRIKE</h2>
                                 <p class="item-intro text-muted">Coding event</p>
                 </div>
@@ -836,8 +778,8 @@ to find the location and then defuse the bomb.<br>
 This March, we bring to you an opportunity to put down the terrorism, in the form of our event,
 CODE STRIKE. Decode the location in the first round and then build a code to defuse the bomb
 in the next round and save the world from terrorisms by using your coding skills!! 
-								</p>
-								<h4 class = "timeline-heading"></h4>
+                                </p>
+                                <h4 class = "timeline-heading"></h4>
                                 <p class = "timeline-body" align = "justify">
                                 <ul><li>Round 1: consists of pen-paper test to test the problem solving abilities.</li>
 <li>Round 2: involves online coding questions. </li></ul>
@@ -852,9 +794,9 @@ can run their codes on their compiler and write the answers on the sheet provide
 <li>Only final answers on the sheet will be evaluated, not the code.</li>
 <li>Some problems marked by * will have double weightage.</li>
 <li>50% of the total participants will advance for the secon round. </li></ul>
-								<br>
-								<b>Round 2:</b><br>
-								<ul><li>An online coding test will be conducted consisting of two questions.</li>
+                                <br>
+                                <b>Round 2:</b><br>
+                                <ul><li>An online coding test will be conducted consisting of two questions.</li>
 <li>The participant with max score in the second round will be the winner!! </li></ul></p>
                                 <h4 class = "timeline-heading">Rules:</h4>
                                 <p class = "timeline-body" align = "left"><ul class = "timeline-body">
@@ -870,7 +812,7 @@ rules, if any will be highlighted on the website and notified to the registered 
                         </div>
                         </div>
                         <div class = "mid">
-                        		<button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -908,11 +850,11 @@ rules, if any will be highlighted on the website and notified to the registered 
                                 <p class = "timeline-body" align = "justify">The ship has sailed. The planet is close to doom! And it's your superhero skills only which can save the fleet and your home. It's a summon call to all the protagonists who have altruistic values, as they shall be required to apply these ideals to difficult dilemmas.
 
 This time we bring to you an opportunity to serve in your very own Starfleet, in the form of our event, . Explore Innovate and Excel to develop digital circuitry to deal with the enemy and emerge as the Guardians of the Galaxy!
-								</p>
-								<h4 class = "timeline-heading">TASK:</h4>
+                                </p>
+                                <h4 class = "timeline-heading">TASK:</h4>
                                 <p class = "timeline-body" align = "justify"><ul><li>
                                 Round 1 consists of pen‐paper test to test knowledge of digital and analog circuits.</li>
-								<li>
+                                <li>
 Round 2 involves simulation and hardware implementation of circuit according to problem statement provided.   </li></ul>                             </p> 
                                 <h4 class = "timeline-heading">EVENT DESCRIPTION:</h4>
                                 <p class = "timeline-body" align = "justify">For the event, you need to participate in teams of two. There will be two rounds‐<ul><li><b>Round 1</b>:<br>This is a pen‐paper based quiz to check participants’ knowledge of digital and analog circuits.
@@ -941,7 +883,7 @@ The team which accomplishes the task with the maximum points will be the winner!
                         </div>
                         </div>
                         <div class = "mid">
-                        		<button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -977,8 +919,8 @@ The team which accomplishes the task with the maximum points will be the winner!
                         <div class = "col-lg-6">
                                 <h4 class = "timeline-heading">Description:</h4>
                                 <p class = "timeline-body" align = "justify">A manually controlled bot is supposed to travel front and back in order to catch the balls. The arena is an inclined surface containing different types of obstacles so that the balls while coming down change their paths many times in order to confuse the participant maneuvering the bot. The balls are of different colours having different points. The bot would have to move such that it catches the most number of points and simultaneously is not catching the balls having negative points. The bot having the maximum number of points wins this event.
-								</p>
-								<h4 class = "timeline-heading">Game procedure:</h4>
+                                </p>
+                                <h4 class = "timeline-heading">Game procedure:</h4>
                                 <p class = "timeline-body" align = "justify">
                                 <ul><li>Four different coloured balls of different points (Negative and Positive points) will be released simultaneously from one end. </li>
 <li>The balls will collide with the obstacles and change its direction. The bot will have to track the ball and catch it when it will arrive at the opposite end. This will be repeated 20 times and the score will be noted in all cases.</li>
@@ -997,13 +939,13 @@ event. There will be a ball also for bonus points.</li></ul>
                                 <li>Each team must not exceed 3 members.</li>
 <li>They may not necessarily be from the same institute.</li>
 <li>Each team must have a team leader who must be present when called upon by the organizers.</li></ul></p>
-								
+                                
                                 
                                 </div>  
                         </div>
                         </div>
                         <div class = "mid">
-                        		<button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1013,7 +955,7 @@ event. There will be a ball also for bonus points.</li></ul>
     </div>
 
 
-	<!-- Portfolio Modal 7 -->
+    <!-- Portfolio Modal 7 -->
     <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1045,8 +987,8 @@ recluse from the tiring curriculum, and ofcourse to bring out the best photograp
 the stress of engineering studies. So, this techadroit  Explore your country and capture its allure and 
 
 showcase your talent by capturing some innovating photographs on the theme : “ Made in INDIA”.
-								</p>
-								<h4 class = "timeline-heading">TASK:</h4>
+                                </p>
+                                <h4 class = "timeline-heading">TASK:</h4>
                                 <p class = "timeline-body" align = "justify">
                                 This is an online event where participants are required to submit an innovative photograph on the
 
@@ -1063,7 +1005,7 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                         </div>
                         </div>
                         <div class = "mid">
-                        		<button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1099,8 +1041,8 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                         <div class = "col-lg-6">
                                 <h4 class = "timeline-heading">Abstract:</h4>
                                 <p class = "timeline-body" align = "justify">
-								</p>
-								<h4 class = "timeline-heading">TOOLS FOR MAKING WEBSITE:</h4>
+                                </p>
+                                <h4 class = "timeline-heading">TOOLS FOR MAKING WEBSITE:</h4>
                                 <p class = "timeline-body" align = "justify">
                                 
                                 </p> 
@@ -1109,13 +1051,13 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                                 <h4 class = "timeline-heading">Breakup:</h4>
                                 <p class = "timeline-body" align = "left"><ul class = "timeline-body">
                                 </p>
-								
+                                
                                 
                                 </div>  
                         </div>
                         </div>
                         <div class = "mid">
-                        		<button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1151,8 +1093,8 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                         <div class = "col-lg-6">
                                 <h4 class = "timeline-heading">Abstract:</h4>
                                 <p class = "timeline-body" align = "justify">
-								</p>
-								<h4 class = "timeline-heading">TOOLS FOR MAKING WEBSITE:</h4>
+                                </p>
+                                <h4 class = "timeline-heading">TOOLS FOR MAKING WEBSITE:</h4>
                                 <p class = "timeline-body" align = "justify">
                                 
                                 </p> 
@@ -1165,7 +1107,7 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                         </div>
                         </div>
                         <div class = "mid">
-                        		<button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1188,31 +1130,31 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
     
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
-	
+    
 </body>
 <script>
-				var map;
-				function initMap()
-				{
-				
-					map = new google.maps.Map(document.getElementById('map'), {center:{lat:30.7662, lng:76.7784}, zoom:18});
-					var tribeca = {lat:30.7662, lng:76.7784};
-					var marker = new google.maps.Marker({
-						position : tribeca,
-						map : map, 
-						title : 'PEC'
-					});
-					var infowindow = new google.maps.InfoWindow({
-						content:'Hi! Welcome to PEC University of TEchnology, Chandigarh'
-					});
-					marker.addListener('click', function(){
-					infowindow.open(map, marker);
-				});
-				}
-				</script>
-	
-			<script async defer
-				src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAde8RNBIPzCZDutHsRy55c2H2FhnbHxps&v=3.exp&callback=initMap">
-			</script>
+                var map;
+                function initMap()
+                {
+                
+                    map = new google.maps.Map(document.getElementById('map'), {center:{lat:30.7662, lng:76.7784}, zoom:18});
+                    var tribeca = {lat:30.7662, lng:76.7784};
+                    var marker = new google.maps.Marker({
+                        position : tribeca,
+                        map : map, 
+                        title : 'PEC'
+                    });
+                    var infowindow = new google.maps.InfoWindow({
+                        content:'Hi! Welcome to PEC University of TEchnology, Chandigarh'
+                    });
+                    marker.addListener('click', function(){
+                    infowindow.open(map, marker);
+                });
+                }
+                </script>
+    
+            <script async defer
+                src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAde8RNBIPzCZDutHsRy55c2H2FhnbHxps&v=3.exp&callback=initMap">
+            </script>
 </html>
 
