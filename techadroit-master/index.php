@@ -94,6 +94,11 @@
     <header>
         <div class="container">
             <div class="intro-text">
+
+            <?php 
+                if($error)
+                    echo '<div class="alert alert-danger">'.addslashes($error).'</div>';
+            ?>
                     
                 <div class="intro-heading">TECHADROIT</div>
                 <div class="intro-lead-in">To unleash the gamer within you!</div>
@@ -295,6 +300,7 @@
                     <h2 class="section-heading">Register Now</h2>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-lg-12">
                     <form name="sentMessage" id="registerForm" method="post" novalidate>
