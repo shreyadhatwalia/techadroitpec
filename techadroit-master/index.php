@@ -1,4 +1,6 @@
-<?php include "login.php"; ?> 
+<?php 
+    include "login.php";
+ ?> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -61,7 +63,7 @@
                         <a class="page-scroll" href="#portfolio">Events</a>
                     </li>
                     <li>
-                        <a href="#register"><span class="glyphicon glyphicon-user"></span> Register</a>
+                        <a class="page-scroll" href="#register"><span class="glyphicon glyphicon-user"></span> Register</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Sponsors</a>
@@ -95,7 +97,7 @@
                     
                 <div class="intro-heading">TECHADROIT</div>
                 <div class="intro-lead-in">To unleash the gamer within you!</div>
-                <a href="#services" class="page-scroll btn btn-xl"><span class = "span_style">START</span></a>
+                <a href="#about" class="page-scroll btn btn-xl"><span class = "span_style">START</span></a>
             </div>
         </div>
     </header>
@@ -680,7 +682,7 @@ You are provided with Internet Access for downloading suitable stuffs. Invent re
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger rbutton"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -744,7 +746,7 @@ You are provided with Internet Access for downloading suitable stuffs. Invent re
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger rbutton"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -805,7 +807,7 @@ All with passion to write, its time to start shaping your skills.
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger rbutton"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -879,7 +881,7 @@ rules, if any will be highlighted on the website and notified to the registered 
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger rbutton"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -950,7 +952,7 @@ The team which accomplishes the task with the maximum points will be the winner!
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger rbutton"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1012,7 +1014,7 @@ event. There will be a ball also for bonus points.</li></ul>
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger rbutton"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1072,7 +1074,7 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger rbutton"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1124,7 +1126,7 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger rbutton"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1174,7 +1176,7 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                                <button type="button" class="btn btn-danger rbutton"><i class="fa fa-registered"></i> Register</button>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1218,10 +1220,16 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                     infowindow.open(map, marker);
                 });
                 }
-                </script>
+</script>
     
             <script async defer
                 src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAde8RNBIPzCZDutHsRy55c2H2FhnbHxps&v=3.exp&callback=initMap">
-            </script>
+            </script>  
+
+<script>
+    $(".rbutton").click(function(){
+        alert("Please LOGIN to Register");
+    });
+</script>         
 </html>
 

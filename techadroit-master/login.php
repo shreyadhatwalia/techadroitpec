@@ -56,30 +56,25 @@
 				$row = mysqli_fetch_array($result);
 
 				$_SESSION['id']=$row['id'];
-				header("Location:mainpage.php");
+				header("Location:mainpage.php?eid=$email");
 			}
 		}
 	}
 
 	if($_POST['submit']=="Log In") {
 
-		echo "Hello 1";
-
 		$loginemail=sanitize($_POST["loginemail"]);
 		$loginpass=sanitize($_POST["loginpassword"]);
 
 		$query="SELECT * FROM users WHERE email='$loginemail' AND password='".md5(md5($loginemail).$loginpass)."'";
-		//".md5(md5($loginemail).$loginpass)."
 
 		$result = mysqli_query($conn,$query);
 		$row = mysqli_fetch_array($result);
 
-		echo $row;
-
 		if($row){
+			session_start();
 			$_SESSION['id']=$row['id'];
-
-			header("Location:mainpage.php");
+			header("Location:mainpage.php?eid=$loginemail");
 		}else{
 			$error.= "we couldnot find user";
 		}

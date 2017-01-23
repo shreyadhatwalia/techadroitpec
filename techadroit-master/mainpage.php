@@ -1,9 +1,8 @@
-<? 
-    include "connection.php"; 
-    session_start();
-?> 
-
-<!DOCTYPE html>
+<?php  
+	include "connection.php";
+	session_start();
+	$lid=$_GET["eid"];
+?>
 <html lang="en">
 
 <head>
@@ -89,7 +88,7 @@
                     
                 <div class="intro-heading">TECHADROIT</div>
                 <div class="intro-lead-in">To unleash the gamer within you!</div>
-                <a href="#services" class="page-scroll btn btn-xl"><span class = "span_style">START</span></a>
+                <a href="#about" class="page-scroll btn btn-xl"><span class = "span_style">START</span></a>
             </div>
         </div>
     </header>
@@ -613,9 +612,10 @@ You are provided with Internet Access for downloading suitable stuffs. Invent re
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
-
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <form name="form1" method="post" action="">
+                                <input type="submit" name="submit" class="btn btn-danger rbutton" value="Register for Design Mania">
+                            </form>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                 </div>
             </div>
@@ -677,9 +677,11 @@ You are provided with Internet Access for downloading suitable stuffs. Invent re
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                            <form name="form1" method="post" action="">
+                                <input type="submit" name="submit" class="btn btn-danger rbutton" value="Register for Rapid Fire">
+                            </form>
 
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                 </div>
             </div>
@@ -738,9 +740,11 @@ All with passion to write, its time to start shaping your skills.
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                            <form name="form1" method="post" action="">
+                                <input type="submit" name="submit" class="btn btn-danger rbutton" value="Register for Techblog">
+                            </form>
 
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                 </div>
             </div>
@@ -812,9 +816,11 @@ rules, if any will be highlighted on the website and notified to the registered 
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                            <form name="form1" method="post" action="">
+                                <input type="submit" name="submit" class="btn btn-danger rbutton" value="Register for Code Strike">
+                            </form>
 
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                 </div>
             </div>
@@ -883,7 +889,9 @@ The team which accomplishes the task with the maximum points will be the winner!
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                            <form name="form1" method="post" action="">
+                                <input type="submit" name="submit" class="btn btn-danger rbutton" value="Register for Innothon">
+                            </form>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -945,7 +953,9 @@ event. There will be a ball also for bonus points.</li></ul>
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                            <form name="form1" method="post" action="">
+                                <input type="submit" name="submit" class="btn btn-danger rbutton" value="Register for Rush Hour">
+                            </form>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1005,7 +1015,9 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                            <form name="form1" method="post" action="">
+                                <input type="submit" name="submit" class="btn btn-danger rbutton" value="Register for Unleash with a Flash">
+                            </form>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1057,8 +1069,9 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
-
+                            <form name="form1" method="post" action="">
+                                <input type="submit" name="submit" class="btn btn-danger rbutton" value="Register for Pixelate">
+                            </form>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                 </div>
@@ -1107,7 +1120,9 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
                         </div>
                         </div>
                         <div class = "mid">
-                                <button type="button" class="btn btn-danger"><i class="fa fa-registered"></i> Register</button>
+                            <form name="form1" method="post" action="">
+                                <input type="submit" name="submit" class="btn btn-danger rbutton" value="Register for Transporter">
+                            </form>
 
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -1130,31 +1145,80 @@ theme-‘MADE IN INDIA’. The entries need to be mailed at pec.ieee@gmail.com b
     
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+
+    <?php
+        if($_POST['submit']=="Register for Design Mania"){
+            $query="UPDATE users SET event1='yes' WHERE email='$lid'";
+            mysqli_query($conn, $query);
+        }
+        else if($_POST['submit']=="Register for Rapid Fire"){
+        $query="UPDATE users SET event2='yes' WHERE email='$lid'";
+        mysqli_query($conn, $query);
+        }
+        else if($_POST['submit']=="Register for Techblog"){
+        $query="UPDATE users SET event3='yes' WHERE email='$lid'";
+        mysqli_query($conn, $query);
+        }
+        else if($_POST['submit']=="Register for Code Strike"){
+        $query="UPDATE users SET event4='yes' WHERE email='$lid'";
+        mysqli_query($conn, $query);
+        }
+        else if($_POST['submit']=="Register for Innothon"){
+        $query="UPDATE users SET event5='yes' WHERE email='$lid'";
+        mysqli_query($conn, $query);
+        }
+        else if($_POST['submit']=="Register for Rush Hour"){
+        $query="UPDATE users SET event6='yes' WHERE email='$lid'";
+        mysqli_query($conn, $query);
+        }
+        else if($_POST['submit']=="Register for Unleash with a Flash"){
+        $query="UPDATE users SET event7='yes' WHERE email='$lid'";
+        mysqli_query($conn, $query);
+        }
+        else if($_POST['submit']=="Register for Pixelate"){
+        $query="UPDATE users SET event8='yes' WHERE email='$lid'";
+        mysqli_query($conn, $query);
+        }
+        else if($_POST['submit']=="Register for Transporter"){
+        $query="UPDATE users SET event9='yes' WHERE email='$lid'";
+        mysqli_query($conn, $query);
+        }
+    ?>
+
+<script>
+    $(".rbutton").click(function(){
+        alert("You have been registered successfully for the event");
+    });
+</script>
+
+<script>
+    var map;
+    function initMap(){
+                
+        map = new google.maps.Map(document.getElementById('map'), {center:{lat:30.7662, lng:76.7784}, zoom:18});
+        var tribeca = {lat:30.7662, lng:76.7784};
+        var marker = new google.maps.Marker({
+            position : tribeca,
+            map : map, 
+            title : 'PEC'
+        });
+        var infowindow = new google.maps.InfoWindow({
+            content:'Hi! Welcome to PEC University of TEchnology, Chandigarh'
+        });
+        marker.addListener('click', function(){
+            infowindow.open(map, marker);
+        });
+    }
+</script>
+    
+<script async defer
+        src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAde8RNBIPzCZDutHsRy55c2H2FhnbHxps&v=3.exp&callback=initMap">
+</script>
+
     
 </body>
-<script>
-                var map;
-                function initMap()
-                {
-                
-                    map = new google.maps.Map(document.getElementById('map'), {center:{lat:30.7662, lng:76.7784}, zoom:18});
-                    var tribeca = {lat:30.7662, lng:76.7784};
-                    var marker = new google.maps.Marker({
-                        position : tribeca,
-                        map : map, 
-                        title : 'PEC'
-                    });
-                    var infowindow = new google.maps.InfoWindow({
-                        content:'Hi! Welcome to PEC University of TEchnology, Chandigarh'
-                    });
-                    marker.addListener('click', function(){
-                    infowindow.open(map, marker);
-                });
-                }
-                </script>
-    
-            <script async defer
-                src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAde8RNBIPzCZDutHsRy55c2H2FhnbHxps&v=3.exp&callback=initMap">
-            </script>
+
 </html>
 
+
+	
