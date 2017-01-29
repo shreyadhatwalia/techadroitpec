@@ -1,5 +1,5 @@
 <?php 
-    include "login.php";
+    //include "login.php";
  ?> 
 
 <!DOCTYPE html>
@@ -67,9 +67,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Sponsors</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -403,162 +400,8 @@
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                </div>
-            </div>            
-            <div class="row">
-                    <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Prof. Rintu Khanna</h4>
-                        <p class="text-muted">Officer Incharge, IEEE PEC</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="" class="img-responsive img-circle" alt="">
-                        <h4>Nikhil Arora</h4>
-                        <p class="text-muted">Chairperson, IEEE PEC</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Rashpinder Jagait</h4>
-                        <p class="text-muted">Vice Chairperson, IEEE PEC</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted timeline-heading"><h3>WEBSITE DEVELOPMENT TEAM</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Shreya Dhatwalia</h4>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Shivam Thakur</h4>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Mayank Goyal</h4>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
-    <!--
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">contact</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-    
-    <section id = "contact">
+    <section id = "contact" class="bg-light-gray">
         <div class = "container">
             <div class = "row">
                 <div class = "col-lg-12 text-center">
@@ -572,41 +415,31 @@
                     </div>
                     <div class = "row">
                     <div class = "col-lg-6">
-                    <div id = "map" class = "map-responsive"></div>
+                        <div id = "map" class = "map-responsive"></div>
                     </div>
                     <div class = "col-lg-6">
-                        <address class="contact-details resp">
-                                <h3>Contact Us</h3>                     
-                                <p><i class="fa fa-pencil"></i> PEC University of Technology, <span>Sector - 12,</span> <span>Chadigarh </span><span>160012</span></p><br>
-                                <p><i class="fa fa-phone"></i> Phone: (+91) 95306-62773 </p>
+                            <address class="contact-details text-center resp">
+                                <h3>Contact Us</h3>
+                                <p><i class = "fa fa-user"></i> Prof. Rintu Khanna <span>Officer Incharge, </span><span>IEEE PEC</span></p>                     
+                                <p><i class="fa fa-pencil"></i> PEC University of Technology, <span>Sector - 12,</span> <span>Chadigarh </span><span>160012</span>
                                 <p><i class="fa fa-envelope"></i> pec.ieee@gmail.com</p><br>
-                                <p><i class = "fa fa-user"></i> Prof. Rintu Khanna <span>Officer Incharge, </span><span>IEEE PEC</span></p>
-                                <p><i class = "fa fa-phone"></i> Phone: (+91) 97797-05738 </p>
-                                <p><i class = "fa fa-envelope"></i> ieee@pec.edu.in</p>
                             </address>
-                    </div>
-                    </div>
-                    <br>
-                    <div class = "row">
-                    <div class = "col-lg-12">
-                    <address class = "contact-details resp">
-                    <h3 >IEEE PEC</h3>
-                    </div></div>
-                    <div class = "row">
-                    <div class = "col-lg-6">
-                    <address class = "contact-details resp">
-                    <p><i class = "fa fa-user"></i> Nikhil Arora <span>Chairperson, </span> <span>IEEE PEC</span></p><br>
-                    <p><i class = "fa fa-phone"></i> Phone: (+91) 95306-62773 </p>
-                    <p><i class = "fa fa-envelope"></i> nikhilarora1696@gmail.com</p>
-                    </div>
-                    
-                    <div class = "col-lg-6">
-                    <address class = "contact-details resp">
-                    <p><i class = "fa fa-user"></i> Rashpinder Jagait <span>    Vice Chairperson, </span> <span>IEEE PEC</span></p><br>
-                    <p><i class = "fa fa-phone"></i> Phone: (+91) 98728-88599 </p>
-                    <p><i class = "fa fa-envelope"></i> rashjagait@gmail.com</p>
-                    </div>
 
+                            <div class="container">
+                                <div class="row">
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 portfolio-item" >
+                                        <div class="portfolio-caption text-center">
+                                            <h3>Our team</h3>
+                                        </div>
+                                        <a href="#ourTeam" class="portfolio-link" data-toggle="modal">
+                                            <img src="img/portfolio/ourTeam.jpg" class="img-responsive img-centered" id="Team" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
             </div>
             </div>
             </div>      
@@ -640,6 +473,256 @@
             </div>
         </div>
     </footer>
+
+    <!-- our team portfolio -->
+    <div class="portfolio-modal modal fade" id="ourTeam" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class ="mid">
+                    <h1>Our Amazing Team</h1>
+
+                    <div class="container">          
+                        <div class="row">
+                        <br> <br>
+                        <h3>Main Organizers</h3>
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/nikhil.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Nikhil Arora</h4>
+                                    <p class="text-muted">Chairperson, IEEE PEC</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/rashpinder.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Rashpinder Jagait</h4>
+                                    <p class="text-muted">Vice Chairperson, IEEE PEC</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/amit.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Amit Verma</h4>
+                                    <p class="text-muted">Techadroit Incharge, IEEE PEC</p>
+                                </div>
+                            </div>
+
+                        <br>
+                        <h3>SUPPORTIVE MEMBERS</h3>
+
+                            <div class="col-sm-3">
+                                <div class="team-member">
+                                    <img src="img/team/shreya.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Shreya Dhatwalia</h4>
+                                    <p class="text-muted">Lead Designer</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="team-member">
+                                    <img src="img/team/mayank.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Mayank Goyal</h4>
+                                    <p class="text-muted">Lead Developer, Marketing Head</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="team-member">
+                                    <img src="img/team/shivam.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Shivam Thakur</h4>
+                                    <p class="text-muted">Creative Head, Marketing Head</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="team-member">
+                                    <img src="img/team/shyam.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Shyam Pandya</h4>
+                                    <p class="text-muted">Marketing Head</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/megha.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Megha Babbar</h4>
+                                    <p class="text-muted">Event Head: CODE STRIKE</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/rahul.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Rahul Garg</h4>
+                                    <p class="text-muted">Event Head: CODE STRIKE</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Sonali Sharma</h4>
+                                    <p class="text-muted">Event Head: CODE STRIKE</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="team-member">
+                                    <img src="img/team/nishant.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Nishant Gupta</h4>
+                                    <p class="text-muted">Event Head: PIXELATE</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="team-member">
+                                    <img src="img/team/aashna.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Ashna Mehta</h4>
+                                    <p class="text-muted">Event Head: PIXELATE</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/ramnik.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Ramnik Singh</h4>
+                                    <p class="text-muted">Event Head: DESIGN MANIA</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Hima Mahajan</h4>
+                                    <p class="text-muted">Event Head: DESIGN MANIA</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/siddharth.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Siddharth Dangwal</h4>
+                                    <p class="text-muted">Event Head: DESIGN MANIA</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="team-member">
+                                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Pritish Shezpaul</h4>
+                                    <p class="text-muted">Event Head: TRANSPORTER</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="team-member">
+                                    <img src="img/team/himanshu.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Himanshu Bansal</h4>
+                                    <p class="text-muted">Event Head: TRANSPORTER</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/annika.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Annika Panwar</h4>
+                                    <p class="text-muted">Event Head: RAPID FIRE</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Kunal</h4>
+                                    <p class="text-muted">Event Head: RAPID FIRE</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Sahil Sihag</h4>
+                                    <p class="text-muted">Event Head: RAPID FIRE</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="team-member">
+                                    <img src="img/team/sahilKhosla.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Sahil Khosla</h4>
+                                    <p class="text-muted">Event Head: RUSH HOUR</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="team-member">
+                                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Harry</h4>
+                                    <p class="text-muted">Event Head: RUSH HOUR</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Namrata Sharma</h4>
+                                    <p class="text-muted">Event Head: UNLEASH WITH A FLASH</p>
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Priyanshu Gautam</h4>
+                                    <p class="text-muted">Event Head: TECH BLOG</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Deepjot Kaur</h4>
+                                    <p class="text-muted">Event Head: TECH BLOG</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="team-member">
+                                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Nancy Garg</h4>
+                                    <p class="text-muted">Event Head: INNOTHON</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="team-member">
+                                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                                    <h4>Akashdeep Jassal</h4>
+                                    <p class="text-muted">Event Head: INNOTHON</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
