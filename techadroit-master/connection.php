@@ -5,19 +5,19 @@
  // but I strongly suggest you to use PDO or MySQLi.
  
  define('DBHOST', 'localhost');
- define('DBUSER', 'root');
- define('DBPASS', '');
- define('DBNAME', 'test');
+ define('DBUSER', 'techadro_users');
+ define('DBPASS', 'ieee@pec.chd');
+ define('DBNAME', 'techadro_users');
  
  $conn = mysqli_connect(DBHOST,DBUSER,DBPASS);
  $dbcon = mysqli_select_db($conn, DBNAME);
  
  if ( !$conn ) {
-  die("Connection failed : " . mysqli_error());
+  die("ion failed : " . mysqli_error());
  }
  
  if ( !$dbcon ) {
-  die("Database Connection failed : " . mysqli_error());
+  die("Database ion failed : " . mysqli_error());
  }
 
 ?>

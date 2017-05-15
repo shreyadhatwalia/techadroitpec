@@ -1,0 +1,143 @@
+[11-Feb-2017 15:12:35 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/techadro/public_html/connection.php on line 12
+[11-Feb-2017 15:12:35 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[11-Feb-2017 15:12:35 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[11-Feb-2017 15:29:57 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'techadro_users'@'localhost' (using password: NO) in /home/techadro/public_html/connection.php on line 12
+[11-Feb-2017 15:29:57 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[11-Feb-2017 15:29:57 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[11-Feb-2017 15:31:33 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:31:33 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:48:44 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:48:44 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:49:48 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:49:48 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:51:38 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:51:38 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:51:47 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:51:47 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:52:53 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:52:53 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:52:53 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/techadro/public_html/login.php on line 56
+[11-Feb-2017 15:52:53 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 59
+[11-Feb-2017 15:55:30 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:55:30 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:55:30 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 15:57:18 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:57:18 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:57:29 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:57:29 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 15:57:29 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 16:03:21 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:03:22 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:24:16 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:24:30 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:24:30 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 75
+[11-Feb-2017 16:24:30 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 16:24:43 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:24:43 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 75
+[11-Feb-2017 16:24:43 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 16:24:46 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:24:53 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:31:20 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:31:33 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:31:33 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 16:32:51 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:33:08 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:33:08 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 16:35:22 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:35:22 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:35:58 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:35:58 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:35:58 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 16:36:42 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:36:42 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:37:35 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:37:35 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:37:35 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/techadro/public_html/login.php on line 56
+[11-Feb-2017 16:37:35 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 59
+[11-Feb-2017 16:56:13 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:56:26 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 3
+[11-Feb-2017 16:56:26 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 17:07:43 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 2
+[11-Feb-2017 17:07:56 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 2
+[11-Feb-2017 17:07:56 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 17:11:04 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 17:16:09 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 2
+[11-Feb-2017 17:16:24 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 2
+[11-Feb-2017 17:16:24 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 17:21:21 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 2
+[11-Feb-2017 17:22:26 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 75
+[11-Feb-2017 17:22:26 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 77
+[11-Feb-2017 17:26:52 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/techadro/public_html/login.php:1) in /home/techadro/public_html/login.php on line 2
+[11-Feb-2017 20:37:45 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/techadro/public_html/login.php on line 56
+[11-Feb-2017 21:02:11 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/techadro/public_html/login.php on line 56
+[11-Feb-2017 23:18:13 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/techadro/public_html/login.php on line 56
+[16-Feb-2017 22:55:56 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/techadro/public_html/login.php on line 56
+[15-Mar-2017 16:34:47 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:03 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:03 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:35:14 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:14 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:14 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:35:33 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:33 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:33 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:35:34 Asia/Kolkata] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:34 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:34 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:35:34 Asia/Kolkata] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:34 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:34 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:35:34 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:37 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:37 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:35:37 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:37 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:37 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:35:37 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:37 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:37 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:35:38 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:43 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:43 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:35:43 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:45 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:45 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:35:44 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:45 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:45 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:35:45 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:35:45 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:35:45 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:36:00 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:36:00 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:36:00 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:36:04 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:36:05 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:36:05 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:36:08 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:36:08 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:36:08 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:36:15 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:36:15 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:36:15 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:36:33 Asia/Kolkata] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:36:33 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:36:33 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:36:34 Asia/Kolkata] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:36:35 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:36:35 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:37:13 Asia/Kolkata] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:37:25 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:37:25 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:37:28 Asia/Kolkata] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:37:31 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:37:31 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:38:39 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:39:48 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:39:48 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[15-Mar-2017 16:42:53 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home/techadro/public_html/connection.php on line 12
+[15-Mar-2017 16:42:53 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[15-Mar-2017 16:42:53 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
+[02-May-2017 06:36:20 Asia/Kolkata] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/techadro/public_html/connection.php on line 12
+[02-May-2017 06:36:20 Asia/Kolkata] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/techadro/public_html/connection.php on line 13
+[02-May-2017 06:36:20 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/techadro/public_html/connection.php on line 16
